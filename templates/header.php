@@ -18,34 +18,44 @@
 	<body>
 		
 		<!-- Main header for every page -->
-		<nav class="navbar navbar-expand-md">
+		<nav class="navbar">
 			<div class="container">
 				<!-- Brand -->
-				<a class="navbar-brand" href="<?php echo $fileLevel ?>index.php">
-					<img src="<?php echo $fileLevel ?>images/logo.png">
-				</a>
+				<div class="navbar-brand">
+					<a class="navbar-item" href="<?php echo $fileLevel ?>index.php">
+						<img src="<?php echo $fileLevel ?>images/logoOriginal.svg" width="112" height="28">
+					</a>
+					<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+					</a>
+				</div>
+				<!-- Navbar menu -->
+				<div class="navbar-menu">
+					<div class="navbar-start">
 
-				<!-- Toggler/collapsibe Button -->
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-					<i class="fas fa-bars"></i>
-				</button>
+					</div>
 
-				<!-- Navbar links -->
-				<div class="collapse navbar-collapse" id="collapsibleNavbar">
-					<ul class="navbar-nav nav-fill ml-auto">
-						<li class="nav-item">
-							<a class="nav-link" href="<?php echo $fileLevel ?>pricing.php">Pricing</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="<?php echo $fileLevel ?>about.php">About me</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="<?php echo $fileLevel ?>work.php">My work</a>
-						</li>
-						<li class="nav-item">
-							<a class="btn btn-primary btn-lg shadow" href="<?php echo $fileLevel ?>contact.php">Contact me</a>
-						</li>
-					</ul>
+					<div class="navbar-end">
+						<a class="navbar-item" href="<?php echo $fileLevel ?>contact.php">Home</a>
+						<a class="navbar-item" href="<?php echo $fileLevel ?>contact.php">Documentation</a>
+						<div class="navbar-item has-dropdown is-hoverable">
+							<a class="navbar-link" href="<?php echo $fileLevel ?>contact.php">My work</a>
+							<div class="navbar-dropdown">
+								<a class="navbar-item" href="<?php echo $fileLevel ?>contact.php">About</a>
+								<a class="navbar-item" href="<?php echo $fileLevel ?>contact.php">Jobs</a>
+								<a class="navbar-item" href="<?php echo $fileLevel ?>contact.php">Contact</a>
+								<hr class="navbar-divider">
+								<a class="navbar-item" href="<?php echo $fileLevel ?>contact.php">Report an issue</a>
+							</div>
+						</div>
+						<div class="navbar-item">
+							<div class="buttons">
+								<a class="button is-primary" href="<?php echo $fileLevel ?>contact.php"><strong>Contact me</strong></a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</nav>

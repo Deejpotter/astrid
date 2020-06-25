@@ -95,7 +95,7 @@ $family-display: 'Emilys Candy', 'Balsamiq Sans', BlinkMacSystemFont, -apple-sys
 
 
 
-$primary: $black;
+$primary: $pink;
 
 $info: $pink;
 // $success: $green !default
@@ -136,7 +136,7 @@ $info: $pink;
 
 // General colors
 
-$scheme-main: $black;
+// $scheme-main: $white;
 // $scheme-main-bis: $white-bis !default
 // $scheme-main-ter: $white-ter !default
 // $scheme-invert: $black !default
@@ -280,7 +280,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+nav a {
     font-family: $family-display
 }
     
