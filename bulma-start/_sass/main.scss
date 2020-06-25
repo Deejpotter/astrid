@@ -1,3 +1,5 @@
+/* cd into bulma-start then run npm start and these changes will be updated */
+
 @charset "utf-8";
 
 // Customization
@@ -29,17 +31,18 @@ $white:        hsl(346, 81%, 96%);
 $pink:          hsl(346, 84%, 61%);
 
 // $orange:       hsl(14,  100%, 53%) !default
-// $yellow:       hsl(48,  100%, 67%) !default
-// $green:        hsl(141, 53%,  53%) !default
+$yellow:       #f98121;
+$green:        #7b9159;
 // $turquoise:    hsl(171, 100%, 41%) !default
 $cyan:         #84DCCF;
 // $blue:         hsl(217, 71%,  53%) !default
 // $purple:       hsl(271, 100%, 71%) !default
-// $red:          hsl(348, 86%, 61%) !default
+$red:          #f44336;
 
 // Typography
 
-// $family-sans-serif: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !default
+$family-sans-serif: 'Balsamiq Sans', BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$family-display: 'Emilys Candy', 'Balsamiq Sans', BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 // $family-monospace: monospace !default
 // $render-mode: optimizeLegibility !default
 
@@ -91,6 +94,7 @@ $cyan:         #84DCCF;
 
 
 
+
 $primary: $black;
 
 $info: $pink;
@@ -132,14 +136,14 @@ $info: $pink;
 
 // General colors
 
-// $scheme-main: $white !default
+$scheme-main: $black;
 // $scheme-main-bis: $white-bis !default
 // $scheme-main-ter: $white-ter !default
 // $scheme-invert: $black !default
 // $scheme-invert-bis: $black-bis !default
 // $scheme-invert-ter: $black-ter !default
 
-// $background: $white-ter !default
+// $background: $black;
 
 // $border: $grey-lighter !default
 // $border-hover: $grey-light !default
@@ -181,7 +185,7 @@ $info: $pink;
 // Typography
 
 // $family-primary: $family-sans-serif !default
-// $family-secondary: $family-sans-serif !default
+$family-secondary: $family-display;
 // $family-code: $family-monospace !default
 
 // $size-small: $size-7 !default
@@ -197,6 +201,162 @@ $info: $pink;
 // $shades: mergeColorMaps(("black-bis": $black-bis, "black-ter": $black-ter, "grey-darker": $grey-darker, "grey-dark": $grey-dark, "grey": $grey, "grey-light": $grey-light, "grey-lighter": $grey-lighter, "white-ter": $white-ter, "white-bis": $white-bis), $custom-shades) !default
 
 // $sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6 $size-7 !default
+
+
+
+
+// $body-background-color: $scheme-main;
+// $body-size: 16px;
+// $body-min-width: 300px;
+// $body-rendering: optimizeLegibility;
+// $body-family: $family-primary;
+// $body-overflow-x: hidden;
+// $body-overflow-y: scroll;
+
+// $body-color: $text;
+// $body-font-size: 1em;
+// $body-weight: $weight-normal;
+// $body-line-height: 1.5;
+
+// $code-family: $family-code;
+// $code-padding: 0.25em 0.5em 0.25em;
+// $code-weight: normal;
+// $code-size: 0.875em;
+
+// $small-font-size: 0.875em;
+
+// $hr-background-color: $background;
+// $hr-height: 2px;
+// $hr-margin: 1.5rem 0;
+
+// $strong-color: $text-strong;
+// $strong-weight: $weight-bold;
+
+// $pre-font-size: 0.875em;
+// $pre-padding: 1.25rem 1.5rem;
+// $pre-code-font-size: 1em;
+
+// html
+//   background-color: $body-background-color
+//   font-size: $body-size
+//   -moz-osx-font-smoothing: grayscale
+//   -webkit-font-smoothing: antialiased
+//   min-width: $body-min-width
+//   overflow-x: $body-overflow-x
+//   overflow-y: $body-overflow-y
+//   text-rendering: $body-rendering
+//   text-size-adjust: 100%
+
+// article,
+// aside,
+// figure,
+// footer,
+// header,
+// hgroup,
+// section
+//   display: block
+
+// body,
+// button,
+// input,
+// select,
+// textarea
+//   font-family: $body-family
+
+// code,
+// pre
+//   -moz-osx-font-smoothing: auto
+//   -webkit-font-smoothing: auto
+//   font-family: $code-family
+
+// body
+//   color: $body-color
+//   font-size: $body-font-size
+//   font-weight: $body-weight
+//   line-height: $body-line-height
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $family-display
+}
+    
+
+// // Inline
+
+// a
+//   color: $link
+//   cursor: pointer
+//   text-decoration: none
+//   strong
+//     color: currentColor
+//   &:hover
+//     color: $link-hover
+
+// code
+//   background-color: $code-background
+//   color: $code
+//   font-size: $code-size
+//   font-weight: $code-weight
+//   padding: $code-padding
+
+// hr
+//   background-color: $hr-background-color
+//   border: none
+//   display: block
+//   height: $hr-height
+//   margin: $hr-margin
+
+// img
+//   height: auto
+//   max-width: 100%
+
+// input[type="checkbox"],
+// input[type="radio"]
+//   vertical-align: baseline
+
+// small
+//   font-size: $small-font-size
+
+// span
+//   font-style: inherit
+//   font-weight: inherit
+
+// strong
+//   color: $strong-color
+//   font-weight: $strong-weight
+
+// // Block
+
+// fieldset
+//   border: none
+
+// pre
+//   +overflow-touch
+//   background-color: $pre-background
+//   color: $pre
+//   font-size: $pre-font-size
+//   overflow-x: auto
+//   padding: $pre-padding
+//   white-space: pre
+//   word-wrap: normal
+//   code
+//     background-color: transparent
+//     color: currentColor
+//     font-size: $pre-code-font-size
+//     padding: 0
+
+// table
+//   td,
+//   th
+//     vertical-align: top
+//     &:not([align])
+//       text-align: left
+//   th
+//     color: $text-strong
 
 
 @import "../node_modules/bulma/bulma";
