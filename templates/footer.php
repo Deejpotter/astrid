@@ -1,23 +1,15 @@
-	 <!-- Main footer for every page -->
-     <footer id="main-footer" class= "py-3">	
+	<!-- Main footer for every page -->
+	<footer class="footer has-background-primary has-text-white has-text-centered">
 		<div class="container">
-			<div class="row">
-				<div class= "col-md">
-					<h3>Feedback</h3>
-					<p>Got some feedback for me?</p>
-					<a class= "btn btn-primary shadow" href= "<?php echo $fileLevel ?>contact.php">Let me know</a>
+			<div class="columns">
+				<div class="column">
+					First column
 				</div>
-				<div class= "col-md text-center">
-					<h3>Connect with me</h3>
-					<a href= "https://www.facebook.com/deejpotterdesigns/">
-						<i class="fab fa-facebook"></i>
-					</a>
+				<div class="column">
+					Second column
 				</div>
-				<div class= "col-md text-right">
-					<h3>Policies</h3>
-					<a href= "<?php echo $fileLevel ?>about/privacy-policy.php">Privacy policy</a>
-					<br>
-					<a href= "<?php echo $fileLevel ?>about/terms.php">Terms and conditions</a>
+				<div class="column">
+					Third column
 				</div>
 			</div>
 		</div>
@@ -25,6 +17,7 @@
 	
 	<!-- Fontawesome -->
 	<script src="https://kit.fontawesome.com/bf89e65113.js" crossorigin="anonymous"></script>
+	<!-- My js -->
 	<script src="<?php echo $fileLevel ?>js/index.js"></script>
 	
   </body>

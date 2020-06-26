@@ -304,7 +304,7 @@ pre {
   font-family: monospace; }
 
 body {
-  color: #4a4a4a;
+  color: #090607;
   font-size: 1em;
   font-weight: 400;
   line-height: 1.5; }
@@ -357,7 +357,7 @@ fieldset {
 pre {
   -webkit-overflow-scrolling: touch;
   background-color: #fbdae2;
-  color: #4a4a4a;
+  color: #090607;
   font-size: 0.875em;
   overflow-x: auto;
   padding: 1.25rem 1.5rem;
@@ -394,19 +394,19 @@ table th {
   overflow: hidden !important; }
 
 .is-size-1 {
-  font-size: 3rem !important; }
+  font-size: 4rem !important; }
 
 .is-size-2 {
-  font-size: 2.5rem !important; }
+  font-size: 3rem !important; }
 
 .is-size-3 {
-  font-size: 2rem !important; }
+  font-size: 2.5rem !important; }
 
 .is-size-4 {
-  font-size: 1.5rem !important; }
+  font-size: 2rem !important; }
 
 .is-size-5 {
-  font-size: 1.25rem !important; }
+  font-size: 1.3rem !important; }
 
 .is-size-6 {
   font-size: 1rem !important; }
@@ -416,15 +416,15 @@ table th {
 
 @media screen and (max-width: 768px) {
   .is-size-1-mobile {
-    font-size: 3rem !important; }
+    font-size: 4rem !important; }
   .is-size-2-mobile {
-    font-size: 2.5rem !important; }
+    font-size: 3rem !important; }
   .is-size-3-mobile {
-    font-size: 2rem !important; }
+    font-size: 2.5rem !important; }
   .is-size-4-mobile {
-    font-size: 1.5rem !important; }
+    font-size: 2rem !important; }
   .is-size-5-mobile {
-    font-size: 1.25rem !important; }
+    font-size: 1.3rem !important; }
   .is-size-6-mobile {
     font-size: 1rem !important; }
   .is-size-7-mobile {
@@ -432,15 +432,15 @@ table th {
 
 @media screen and (min-width: 769px), print {
   .is-size-1-tablet {
-    font-size: 3rem !important; }
+    font-size: 4rem !important; }
   .is-size-2-tablet {
-    font-size: 2.5rem !important; }
+    font-size: 3rem !important; }
   .is-size-3-tablet {
-    font-size: 2rem !important; }
+    font-size: 2.5rem !important; }
   .is-size-4-tablet {
-    font-size: 1.5rem !important; }
+    font-size: 2rem !important; }
   .is-size-5-tablet {
-    font-size: 1.25rem !important; }
+    font-size: 1.3rem !important; }
   .is-size-6-tablet {
     font-size: 1rem !important; }
   .is-size-7-tablet {
@@ -448,15 +448,15 @@ table th {
 
 @media screen and (max-width: 1023px) {
   .is-size-1-touch {
-    font-size: 3rem !important; }
+    font-size: 4rem !important; }
   .is-size-2-touch {
-    font-size: 2.5rem !important; }
+    font-size: 3rem !important; }
   .is-size-3-touch {
-    font-size: 2rem !important; }
+    font-size: 2.5rem !important; }
   .is-size-4-touch {
-    font-size: 1.5rem !important; }
+    font-size: 2rem !important; }
   .is-size-5-touch {
-    font-size: 1.25rem !important; }
+    font-size: 1.3rem !important; }
   .is-size-6-touch {
     font-size: 1rem !important; }
   .is-size-7-touch {
@@ -464,15 +464,15 @@ table th {
 
 @media screen and (min-width: 1024px) {
   .is-size-1-desktop {
-    font-size: 3rem !important; }
+    font-size: 4rem !important; }
   .is-size-2-desktop {
-    font-size: 2.5rem !important; }
+    font-size: 3rem !important; }
   .is-size-3-desktop {
-    font-size: 2rem !important; }
+    font-size: 2.5rem !important; }
   .is-size-4-desktop {
-    font-size: 1.5rem !important; }
+    font-size: 2rem !important; }
   .is-size-5-desktop {
-    font-size: 1.25rem !important; }
+    font-size: 1.3rem !important; }
   .is-size-6-desktop {
     font-size: 1rem !important; }
   .is-size-7-desktop {
@@ -480,15 +480,15 @@ table th {
 
 @media screen and (min-width: 1216px) {
   .is-size-1-widescreen {
-    font-size: 3rem !important; }
+    font-size: 4rem !important; }
   .is-size-2-widescreen {
-    font-size: 2.5rem !important; }
+    font-size: 3rem !important; }
   .is-size-3-widescreen {
-    font-size: 2rem !important; }
+    font-size: 2.5rem !important; }
   .is-size-4-widescreen {
-    font-size: 1.5rem !important; }
+    font-size: 2rem !important; }
   .is-size-5-widescreen {
-    font-size: 1.25rem !important; }
+    font-size: 1.3rem !important; }
   .is-size-6-widescreen {
     font-size: 1rem !important; }
   .is-size-7-widescreen {
@@ -496,15 +496,15 @@ table th {
 
 @media screen and (min-width: 1408px) {
   .is-size-1-fullhd {
-    font-size: 3rem !important; }
+    font-size: 4rem !important; }
   .is-size-2-fullhd {
-    font-size: 2.5rem !important; }
+    font-size: 3rem !important; }
   .is-size-3-fullhd {
-    font-size: 2rem !important; }
+    font-size: 2.5rem !important; }
   .is-size-4-fullhd {
-    font-size: 1.5rem !important; }
+    font-size: 2rem !important; }
   .is-size-5-fullhd {
-    font-size: 1.25rem !important; }
+    font-size: 1.3rem !important; }
   .is-size-6-fullhd {
     font-size: 1rem !important; }
   .is-size-7-fullhd {
@@ -1154,7 +1154,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-color: #fdedf0;
   border-radius: 6px;
   box-shadow: 0 0.5em 1em -0.125em rgba(9, 6, 7, 0.1), 0 0px 0 1px rgba(9, 6, 7, 0.02);
-  color: #4a4a4a;
+  color: #090607;
   display: block;
   padding: 1.25rem; }
 
@@ -1205,7 +1205,7 @@ a.box:active {
   .button.is-text {
     background-color: transparent;
     border-color: transparent;
-    color: #4a4a4a;
+    color: #090607;
     text-decoration: underline; }
     .button.is-text:hover, .button.is-text.is-hovered, .button.is-text:focus, .button.is-text.is-focused {
       background-color: #fbdae2;
@@ -1970,9 +1970,9 @@ a.box:active {
   .button.is-normal {
     font-size: 1rem; }
   .button.is-medium {
-    font-size: 1.25rem; }
+    font-size: 1.3rem; }
   .button.is-large {
-    font-size: 1.5rem; }
+    font-size: 2rem; }
   .button[disabled],
   fieldset[disabled] .button {
     background-color: #fdedf0;
@@ -2018,9 +2018,9 @@ a.box:active {
     border-radius: 2px;
     font-size: 0.75rem; }
   .buttons.are-medium .button:not(.is-small):not(.is-normal):not(.is-large) {
-    font-size: 1.25rem; }
+    font-size: 1.3rem; }
   .buttons.are-large .button:not(.is-small):not(.is-normal):not(.is-medium) {
-    font-size: 1.5rem; }
+    font-size: 2rem; }
   .buttons.has-addons .button:not(:first-child) {
     border-bottom-left-radius: 0;
     border-top-left-radius: 0; }
@@ -2216,10 +2216,10 @@ a.box:active {
   font-size: 0.75rem; }
 
 .content.is-medium {
-  font-size: 1.25rem; }
+  font-size: 1.3rem; }
 
 .content.is-large {
-  font-size: 1.5rem; }
+  font-size: 2rem; }
 
 .icon {
   align-items: center;
@@ -2404,11 +2404,11 @@ a.box:active {
   .progress::-webkit-progress-bar {
     background-color: #ededed; }
   .progress::-webkit-progress-value {
-    background-color: #4a4a4a; }
+    background-color: #090607; }
   .progress::-moz-progress-bar {
-    background-color: #4a4a4a; }
+    background-color: #090607; }
   .progress::-ms-fill {
-    background-color: #4a4a4a;
+    background-color: #090607;
     border: none; }
   .progress.is-white::-webkit-progress-value {
     background-color: #fdedf0; }
@@ -2496,7 +2496,7 @@ a.box:active {
     animation-name: moveIndeterminate;
     animation-timing-function: linear;
     background-color: #ededed;
-    background-image: linear-gradient(to right, #4a4a4a 30%, #ededed 30%);
+    background-image: linear-gradient(to right, #090607 30%, #ededed 30%);
     background-position: top left;
     background-repeat: no-repeat;
     background-size: 150% 150%; }
@@ -2507,9 +2507,9 @@ a.box:active {
   .progress.is-small {
     height: 0.75rem; }
   .progress.is-medium {
-    height: 1.25rem; }
+    height: 1.3rem; }
   .progress.is-large {
-    height: 1.5rem; }
+    height: 2rem; }
 
 @keyframes moveIndeterminate {
   from {
@@ -2662,7 +2662,7 @@ a.box:active {
   .tags.are-medium .tag:not(.is-normal):not(.is-large) {
     font-size: 1rem; }
   .tags.are-large .tag:not(.is-normal):not(.is-medium) {
-    font-size: 1.25rem; }
+    font-size: 1.3rem; }
   .tags.is-centered {
     justify-content: center; }
     .tags.is-centered .tag {
@@ -2688,7 +2688,7 @@ a.box:active {
   align-items: center;
   background-color: #fbdae2;
   border-radius: 4px;
-  color: #4a4a4a;
+  color: #090607;
   display: inline-flex;
   font-size: 0.75rem;
   height: 2em;
@@ -2753,7 +2753,7 @@ a.box:active {
   .tag:not(body).is-medium {
     font-size: 1rem; }
   .tag:not(body).is-large {
-    font-size: 1.25rem; }
+    font-size: 1.3rem; }
   .tag:not(body) .icon:first-child:not(:last-child) {
     margin-left: -0.375em;
     margin-right: 0.1875em; }
@@ -2813,7 +2813,7 @@ a.tag:hover {
 
 .title {
   color: #363636;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 600;
   line-height: 1.125; }
   .title strong {
@@ -2824,23 +2824,23 @@ a.tag:hover {
   .title:not(.is-spaced) + .subtitle {
     margin-top: -1.25rem; }
   .title.is-1 {
-    font-size: 3rem; }
+    font-size: 4rem; }
   .title.is-2 {
-    font-size: 2.5rem; }
+    font-size: 3rem; }
   .title.is-3 {
-    font-size: 2rem; }
+    font-size: 2.5rem; }
   .title.is-4 {
-    font-size: 1.5rem; }
+    font-size: 2rem; }
   .title.is-5 {
-    font-size: 1.25rem; }
+    font-size: 1.3rem; }
   .title.is-6 {
     font-size: 1rem; }
   .title.is-7 {
     font-size: 0.75rem; }
 
 .subtitle {
-  color: #4a4a4a;
-  font-size: 1.25rem;
+  color: #090607;
+  font-size: 1.3rem;
   font-weight: 400;
   line-height: 1.25; }
   .subtitle strong {
@@ -2849,15 +2849,15 @@ a.tag:hover {
   .subtitle:not(.is-spaced) + .title {
     margin-top: -1.25rem; }
   .subtitle.is-1 {
-    font-size: 3rem; }
+    font-size: 4rem; }
   .subtitle.is-2 {
-    font-size: 2.5rem; }
+    font-size: 3rem; }
   .subtitle.is-3 {
-    font-size: 2rem; }
+    font-size: 2.5rem; }
   .subtitle.is-4 {
-    font-size: 1.5rem; }
+    font-size: 2rem; }
   .subtitle.is-5 {
-    font-size: 1.25rem; }
+    font-size: 1.3rem; }
   .subtitle.is-6 {
     font-size: 1rem; }
   .subtitle.is-7 {
@@ -2884,7 +2884,7 @@ a.tag:hover {
   background-color: #fbdae2;
   border-radius: 290486px;
   display: inline-flex;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   height: 2em;
   justify-content: center;
   margin-right: 1.5rem;
@@ -2995,9 +2995,9 @@ a.tag:hover {
     border-radius: 2px;
     font-size: 0.75rem; }
   .is-medium.input, .is-medium.textarea {
-    font-size: 1.25rem; }
+    font-size: 1.3rem; }
   .is-large.input, .is-large.textarea {
-    font-size: 1.5rem; }
+    font-size: 2rem; }
   .is-fullwidth.input, .is-fullwidth.textarea {
     display: block;
     width: 100%; }
@@ -3167,9 +3167,9 @@ a.tag:hover {
     border-radius: 2px;
     font-size: 0.75rem; }
   .select.is-medium {
-    font-size: 1.25rem; }
+    font-size: 1.3rem; }
   .select.is-large {
-    font-size: 1.5rem; }
+    font-size: 2rem; }
   .select.is-disabled::after {
     border-color: #7a7a7a; }
   .select.is-fullwidth {
@@ -3185,9 +3185,9 @@ a.tag:hover {
   .select.is-loading.is-small:after {
     font-size: 0.75rem; }
   .select.is-loading.is-medium:after {
-    font-size: 1.25rem; }
+    font-size: 1.3rem; }
   .select.is-loading.is-large:after {
-    font-size: 1.5rem; }
+    font-size: 2rem; }
 
 .file {
   align-items: stretch;
@@ -3357,11 +3357,11 @@ a.tag:hover {
   .file.is-small {
     font-size: 0.75rem; }
   .file.is-medium {
-    font-size: 1.25rem; }
+    font-size: 1.3rem; }
     .file.is-medium .file-icon .fa {
       font-size: 21px; }
   .file.is-large {
-    font-size: 1.5rem; }
+    font-size: 2rem; }
     .file.is-large .file-icon .fa {
       font-size: 28px; }
   .file.has-name .file-cta {
@@ -3452,7 +3452,7 @@ a.tag:hover {
 
 .file-cta {
   background-color: #fbdae2;
-  color: #4a4a4a; }
+  color: #090607; }
 
 .file-name {
   border-color: #dbdbdb;
@@ -3484,9 +3484,9 @@ a.tag:hover {
   .label.is-small {
     font-size: 0.75rem; }
   .label.is-medium {
-    font-size: 1.25rem; }
+    font-size: 1.3rem; }
   .label.is-large {
-    font-size: 1.5rem; }
+    font-size: 2rem; }
 
 .help {
   display: block;
@@ -3620,10 +3620,10 @@ a.tag:hover {
     .field-label.is-normal {
       padding-top: 0.375em; }
     .field-label.is-medium {
-      font-size: 1.25rem;
+      font-size: 1.3rem;
       padding-top: 0.375em; }
     .field-label.is-large {
-      font-size: 1.5rem;
+      font-size: 2rem;
       padding-top: 0.375em; } }
 
 .field-body .field .field {
@@ -3653,7 +3653,7 @@ a.tag:hover {
   .control.has-icons-left .input:focus ~ .icon,
   .control.has-icons-left .select:focus ~ .icon, .control.has-icons-right .input:focus ~ .icon,
   .control.has-icons-right .select:focus ~ .icon {
-    color: #4a4a4a; }
+    color: #090607; }
   .control.has-icons-left .input.is-small ~ .icon,
   .control.has-icons-left .select.is-small ~ .icon, .control.has-icons-right .input.is-small ~ .icon,
   .control.has-icons-right .select.is-small ~ .icon {
@@ -3661,11 +3661,11 @@ a.tag:hover {
   .control.has-icons-left .input.is-medium ~ .icon,
   .control.has-icons-left .select.is-medium ~ .icon, .control.has-icons-right .input.is-medium ~ .icon,
   .control.has-icons-right .select.is-medium ~ .icon {
-    font-size: 1.25rem; }
+    font-size: 1.3rem; }
   .control.has-icons-left .input.is-large ~ .icon,
   .control.has-icons-left .select.is-large ~ .icon, .control.has-icons-right .input.is-large ~ .icon,
   .control.has-icons-right .select.is-large ~ .icon {
-    font-size: 1.5rem; }
+    font-size: 2rem; }
   .control.has-icons-left .icon, .control.has-icons-right .icon {
     color: #dbdbdb;
     height: 2.5em;
@@ -3692,9 +3692,9 @@ a.tag:hover {
   .control.is-loading.is-small:after {
     font-size: 0.75rem; }
   .control.is-loading.is-medium:after {
-    font-size: 1.25rem; }
+    font-size: 1.3rem; }
   .control.is-loading.is-large:after {
-    font-size: 1.5rem; }
+    font-size: 2rem; }
 
 .breadcrumb {
   font-size: 1rem;
@@ -3738,9 +3738,9 @@ a.tag:hover {
   .breadcrumb.is-small {
     font-size: 0.75rem; }
   .breadcrumb.is-medium {
-    font-size: 1.25rem; }
+    font-size: 1.3rem; }
   .breadcrumb.is-large {
-    font-size: 1.5rem; }
+    font-size: 2rem; }
   .breadcrumb.has-arrow-separator li + li::before {
     content: "\02192"; }
   .breadcrumb.has-bullet-separator li + li::before {
@@ -3753,7 +3753,7 @@ a.tag:hover {
 .card {
   background-color: #fdedf0;
   box-shadow: 0 0.5em 1em -0.125em rgba(9, 6, 7, 0.1), 0 0px 0 1px rgba(9, 6, 7, 0.02);
-  color: #4a4a4a;
+  color: #090607;
   max-width: 100%;
   position: relative; }
 
@@ -3840,7 +3840,7 @@ a.tag:hover {
   padding-top: 0.5rem; }
 
 .dropdown-item {
-  color: #4a4a4a;
+  color: #090607;
   display: block;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -3948,7 +3948,7 @@ button.dropdown-item {
   display: block;
   padding: 0.5em 1em; }
   .list-item:not(a) {
-    color: #4a4a4a; }
+    color: #090607; }
   .list-item:first-child {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px; }
@@ -4017,15 +4017,15 @@ a.list-item {
   .menu.is-small {
     font-size: 0.75rem; }
   .menu.is-medium {
-    font-size: 1.25rem; }
+    font-size: 1.3rem; }
   .menu.is-large {
-    font-size: 1.5rem; }
+    font-size: 2rem; }
 
 .menu-list {
   line-height: 1.25; }
   .menu-list a {
     border-radius: 2px;
-    color: #4a4a4a;
+    color: #090607;
     display: block;
     padding: 0.5em 0.75em; }
     .menu-list a:hover {
@@ -4061,9 +4061,9 @@ a.list-item {
   .message.is-small {
     font-size: 0.75rem; }
   .message.is-medium {
-    font-size: 1.25rem; }
+    font-size: 1.3rem; }
   .message.is-large {
-    font-size: 1.5rem; }
+    font-size: 2rem; }
   .message.is-white {
     background-color: #fef6f8; }
     .message.is-white .message-header {
@@ -4143,7 +4143,7 @@ a.list-item {
 
 .message-header {
   align-items: center;
-  background-color: #4a4a4a;
+  background-color: #090607;
   border-radius: 4px 4px 0 0;
   color: #fff;
   display: flex;
@@ -4166,7 +4166,7 @@ a.list-item {
   border-radius: 4px;
   border-style: solid;
   border-width: 0 0 0 4px;
-  color: #4a4a4a;
+  color: #090607;
   padding: 1.25em 1.5em; }
   .message-body code,
   .message-body pre {
@@ -4236,7 +4236,7 @@ a.list-item {
   color: #363636;
   flex-grow: 1;
   flex-shrink: 0;
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 1; }
 
 .modal-card-foot {
@@ -4753,7 +4753,7 @@ body.has-navbar-fixed-bottom {
   overflow-y: hidden; }
 
 .navbar-burger {
-  color: #4a4a4a;
+  color: #090607;
   cursor: pointer;
   display: block;
   height: 3.25rem;
@@ -4791,7 +4791,7 @@ body.has-navbar-fixed-bottom {
 
 .navbar-item,
 .navbar-link {
-  color: #4a4a4a;
+  color: #090607;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 0.75rem;
@@ -5049,9 +5049,9 @@ a.navbar-item,
   .pagination.is-small {
     font-size: 0.75rem; }
   .pagination.is-medium {
-    font-size: 1.25rem; }
+    font-size: 1.3rem; }
   .pagination.is-large {
-    font-size: 1.5rem; }
+    font-size: 2rem; }
   .pagination.is-rounded .pagination-previous,
   .pagination.is-rounded .pagination-next {
     padding-left: 1em;
@@ -5266,7 +5266,7 @@ a.navbar-item,
       color: #363636; }
 
 .panel-list a {
-  color: #4a4a4a; }
+  color: #090607; }
   .panel-list a:hover {
     color: #3273dc; }
 
@@ -5328,7 +5328,7 @@ label.panel-block {
     border-bottom-color: #dbdbdb;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    color: #4a4a4a;
+    color: #090607;
     display: flex;
     justify-content: center;
     margin-bottom: -1px;
@@ -5416,9 +5416,9 @@ label.panel-block {
   .tabs.is-small {
     font-size: 0.75rem; }
   .tabs.is-medium {
-    font-size: 1.25rem; }
+    font-size: 1.3rem; }
   .tabs.is-large {
-    font-size: 1.5rem; }
+    font-size: 2rem; }
 
 .column {
   display: block;

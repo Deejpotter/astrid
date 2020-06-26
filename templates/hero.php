@@ -1,15 +1,15 @@
 <!-- 
 	-----EXAMPLE-----
-	$bgColour = "primary";
-	$bgImage = "images/laptop-60-opacity.png";
-	$textColour = "dark";
-	$sectionH1 = "Deej Potter Designs";
-	$sectionP = "Your own personal web designer. <br>Prices start at $100. <br><strong>Contact me now!</strong>";
+	$bgColour = "black";
+	$textColour = "primary";
+	$bgImage = "";
+	$sectionH1 = "Astrid";
+	$sectionP = "Cute and crazy";
 	$otherClasses = "";
 	include "templates/hero.php"
  -->
 
-<section class="hero is-<?php echo $bgColour ?> is-large <?php echo $otherClasses ?>" style='background-image:url(<?php echo $bgImage ?>);'>
+<section class="hero has-background-<?php echo $bgColour ?> has-text-<?php echo $textColour ?> has-text-centered <?php echo $otherClasses ?>" style='background-image:url(<?php echo $bgImage ?>);'>
   <div class="hero-body">
     <div class="container">
       <h1 class="title"><?php echo $sectionH1 ?></h1>

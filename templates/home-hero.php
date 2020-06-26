@@ -1,18 +1,21 @@
 <!-- 
 	-----EXAMPLE-----
-	$bgColour = "primary";
-	$bgImage = "images/laptop-60-opacity.png";
-	$textColour = "dark";
-	$sectionH1 = "Deej Potter Designs";
-	$sectionP = "Your own personal web designer. <br>Prices start at $100. <br><strong>Contact me now!</strong>";
+	$bgColour = "black";
+	$textColour = "primary";
+	$bgImage = "";
+	$sectionH1 = "Astrid";
+	$sectionH2 = "Cute and crazy";
 	$otherClasses = "";
 	include "templates/home-hero.php"
  -->
 
-<section class="jumbotron jumbotron-fluid bg-<?php echo $bgColour ?> text-<?php echo $textColour ?> my-0 <?php echo $otherClasses ?>" style='background-image:url(<?php echo $bgImage ?>);'>
-	<div class="container text-center">
-		<h1 class="display-1"><?php echo $sectionH1 ?></h1>
-		<p class="lead"><?php echo $sectionP ?></p>
-		<i class="fas fa-chevron-down"></i>
-	</div>
+ <section class="hero has-background-<?php echo $bgColour ?> has-text-<?php echo $textColour ?> is-medium has-text-centered <?php echo $otherClasses ?>" style='background-image:url(<?php echo $bgImage ?>);'>
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title has-text-<?php echo $textColour ?> is-size-1"><?php echo $sectionH1 ?></h1>
+      <h2 class="subtitle has-text-<?php echo $textColour ?> is-size-4"><?php echo $sectionH2 ?></h2>
+	  <i class="fas fa-chevron-down"></i>
+    </div>
+  </div>
 </section>
+	

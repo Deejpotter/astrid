@@ -1,17 +1,17 @@
 <!-- 
 	-----EXAMPLE-----
-	$bgColour = "primary";
-	$bgImage = "images/laptop-60-opacity.png";
+	$bgColour = "light";
 	$textColour = "dark";
-	$sectionH2 = "Deej Potter Designs";
-	$sectionP = "Your own personal web designer. <br>Prices start at $100. <br><strong>Contact me now!</strong>";
+	$bgImage = "";
+	$sectionH2 = "I’m a cute kitty cat";
+	$sectionP = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro necessitatibus voluptatum, excepturi consequatur optio in fugit dignissimos aliquam recusandae laborum consectetur labore sunt quisquam nostrum repellat voluptatem maiores? Id, similique!";
 	$otherClasses = "";
 	include "templates/basic-section.php"
  -->
 
-<section class="bg-<?php echo $bgColour ?> text-<?php echo $textColour ?> py-5 <?php echo $otherClasses ?>" style='background-image:url(<?php echo $bgImage ?>);'>
+ <section class="section has-background-<?php echo $bgColour ?> has-text-<?php echo $textColour ?> <?php echo $otherClasses ?>" style='background-image:url(<?php echo $bgImage ?>);'>
 	<div class="container">
-		<h2><?php echo $sectionH2 ?></h2>
-		<p class=""><?php echo $sectionP ?></p>
+		<h2 class="is-size-3"><?php echo $sectionH2 ?></h2>
+		<p class="is-size-5"><?php echo $sectionP ?></p>
 	</div>
 </section>

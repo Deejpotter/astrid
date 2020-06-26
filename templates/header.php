@@ -23,37 +23,23 @@
 				<!-- Brand -->
 				<div class="navbar-brand">
 					<a class="navbar-item" href="<?php echo $fileLevel ?>index.php">
-						<img src="<?php echo $fileLevel ?>images/logoOriginal.svg" width="112" height="28">
+						<img src="<?php echo $fileLevel ?>images/logoOriginal.svg">
 					</a>
-					<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+					<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
 						<span aria-hidden="true"></span>
 						<span aria-hidden="true"></span>
 						<span aria-hidden="true"></span>
 					</a>
 				</div>
 				<!-- Navbar menu -->
-				<div class="navbar-menu">
+				<div class="navbar-menu" id="navMenu">
 					<div class="navbar-start">
-
 					</div>
-
-					<div class="navbar-end">
+					<div class="navbar-end has-text-centered">
 						<a class="navbar-item" href="<?php echo $fileLevel ?>contact.php">Home</a>
-						<a class="navbar-item" href="<?php echo $fileLevel ?>contact.php">Documentation</a>
-						<div class="navbar-item has-dropdown is-hoverable">
-							<a class="navbar-link" href="<?php echo $fileLevel ?>contact.php">My work</a>
-							<div class="navbar-dropdown">
-								<a class="navbar-item" href="<?php echo $fileLevel ?>contact.php">About</a>
-								<a class="navbar-item" href="<?php echo $fileLevel ?>contact.php">Jobs</a>
-								<a class="navbar-item" href="<?php echo $fileLevel ?>contact.php">Contact</a>
-								<hr class="navbar-divider">
-								<a class="navbar-item" href="<?php echo $fileLevel ?>contact.php">Report an issue</a>
-							</div>
-						</div>
+						<a class="navbar-item" href="<?php echo $fileLevel ?>contact.php">Cat stuff</a>
 						<div class="navbar-item">
-							<div class="buttons">
-								<a class="button is-primary" href="<?php echo $fileLevel ?>contact.php"><strong>Contact me</strong></a>
-							</div>
+							<a class="button is-primary" href="<?php echo $fileLevel ?>contact.php"><strong>Contact me</strong></a>
 						</div>
 					</div>
 				</div>
